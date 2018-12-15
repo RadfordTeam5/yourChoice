@@ -1,0 +1,25 @@
+page-login {
+  background-color: red;
+  ion-navbar{
+    color: red;
+  }
+  text-align: center;
+  .register-btn{
+    background-color: red;
+  }
+  .signin-btn{
+    background-color: red;
+
+  }
+  ion-item{
+    border-radius: 30px !important;
+    padding-left: 30px !important;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .h1{
+    text-align: center;
+    font-family: 'Script MT';
+  }
+}

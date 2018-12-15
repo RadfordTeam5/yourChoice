@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Homepage</ion-title>  
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Beacon</ion-label>
+    <ion-select [(ngModel)]="myBeacon" (ionChange)="optionsFn()" single>
+      <ion-option *ngFor="let beacon of beacons">{{beacon.major}}</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Connected to Beacon</ion-label>
+    <ion-toggle [(ngModel)]="isConnected" disabled="true"></ion-toggle>
+  </ion-item>
+  
+ <p>
+   Hello!
+ </p>
+</ion-content>
